@@ -1,7 +1,5 @@
 `timescale 1ns/100ps
 
-// `include "four_bit_full_adder.v"
-
 module t_four_bit_full_adder();
   reg[3:0] A, B;
   reg C_in;
@@ -21,6 +19,4 @@ module t_four_bit_full_adder();
     A = 4'b1111; B = 4'b1111; C_in = 1'b1;
   end
 endmodule
-
-
 

@@ -1,5 +1,3 @@
-// `include "full_adder.v";
-
 `define N 1024
 
 module t_full_adder();
@@ -61,3 +59,4 @@ module t_full_adder();
   end
 endmodule
 */
+

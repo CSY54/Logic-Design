@@ -1,7 +1,5 @@
 `timescale 1ns/100ps
 
-// `include "one_bit_full_adder.v"
-
 module t_one_bit_full_adder();
   reg A, B, C_in;
   wire C_out, S;
@@ -19,6 +17,4 @@ module t_one_bit_full_adder();
     A = 1'b1; B = 1'b1; C_in = 1'b1;
   end
 endmodule
-
-
 
