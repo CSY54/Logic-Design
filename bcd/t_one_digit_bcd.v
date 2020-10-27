@@ -17,6 +17,6 @@ module t_one_digit_bcd();
     #50
     A = 0; B = 9; C_in = 1;
     #50
-    A = 9; B = 9; C_in = 9;
+    A = 9; B = 9; C_in = 1;
   end
 endmodule
