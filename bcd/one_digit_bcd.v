@@ -19,3 +19,4 @@ module one_digit_bcd(
 
   four_bit_full_adder fa2(S_tmp, to_add, 1'b0, dummy, S);
 endmodule
+
